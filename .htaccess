@@ -1,4 +1,4 @@
-# AddType text/html .shtml
-# AddOutputFilter INCLUDES .shtml
-AddHandler server-parsed .html
-Options Indexes FollowSymLinks Includes
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)/$ $1.php
