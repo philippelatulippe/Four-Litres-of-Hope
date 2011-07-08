@@ -91,12 +91,28 @@ a.allcapslogo:hover{opacity: 1;background: #000 url(../images/allcapslogo.png) n
 
 .aboot .allcapslogo{position: absolute; top:15px; right: 10px;}
 
+/* hide that shit */
+
+.hide_aboot{position: absolute; top:100%; right: -10px; padding: 5px 10px; font-size: 11px; color: #ccc; line-height: 11px; margin-top: 9px; padding-left: 25px; background: #000 url(../vendor/images.sw/arrows/up/3/808080.gif) no-repeat 10px 50%; border: 1px solid #333; border-top: 0; border-right: 0;}
+.hide_aboot .show{display: none;}
+
+.hide_aboot:hover{background-color: #fff; color: #000;}
+
+.aboot_hidden .hide_aboot .show{display: block;}
+.aboot_hidden .hide_aboot .hide{display: none;}
+
+.aboot_hidden{height: 0px;}
+.aboot_hidden .playa object,
+.aboot_hidden .playa .allcapslogo,
+.aboot_hidden p{display: none;}
+
+.aboot_hidden .hide_aboot{background-image: url(../vendor/images.sw/arrows/down/3/808080.gif);}
 
 /* BOTTOM BRO */
 .loader{position: absolute; bottom:0; left: 0; height: 3px; width: 100%; bottom: 0;}
 .loader .mover{background: #ff0; position: absolute; top:0; left: 0; height: 3px;}
 
-.ajax_loader{background: #fff url(../vendor/images.sw/animations/ajax/snake-000000-trans.gif) no-repeat 100% 50%; padding-right: 30px; height: 30px; position: absolute; bottom:10px; right: 0; display: block; border: 3px solid #000; border-radius: 3px 0 0 3px; border-right: none;}
+.ajax_loader{background: #fff url(../vendor/images.sw/animations/ajax/snake-000000-trans.gif) no-repeat 95% 50%; padding: 10px; padding-right: 30px; position: absolute; bottom:10px; right: 0; display: block; border: 3px solid #000; border-radius: 3px 0 0 3px; border-right: none; font-size: 12px; font-weight: bold;}
 
 
 

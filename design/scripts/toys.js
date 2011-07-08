@@ -120,6 +120,16 @@ $(function(){
 	
 	// Insert preloaded image after it finishes loading
 
+	$('.js_hide_aboot').click(function(e){
 
+		e.preventDefault();
+		if ($('.js_aboot').hasClass('aboot_hidden'))
+		{
+			$('.js_aboot').removeClass('aboot_hidden');
+		} else
+		{
+			$('.js_aboot').addClass('aboot_hidden');		
+		}
+	});
 
 });

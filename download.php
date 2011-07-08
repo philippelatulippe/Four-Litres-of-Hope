@@ -80,22 +80,6 @@ function decrement($download_code) {
 
 	<script src="<?php echo $rooturl; ?>design/vendor/jquery/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="<?php echo $rooturl; ?>design/scripts/toys.js" type="text/javascript" charset="utf-8"></script>
-		
-	<link rel="stylesheet" href="<?php echo $rooturl; ?>design/vendor/jquery-ui/css/smoothness/jquery-ui-1.8.4.custom.css" type="text/css" media="screen" charset="utf-8">
-	<script src="<?php echo $rooturl; ?>design/vendor/jquery-ui/js/jquery-ui-1.8.4.min.js" type="text/javascript" charset="utf-8"></script>
-
-	<!-- carousel -->
-	<script src="<?php echo $rooturl; ?>design/scripts/jquery.jcarousel/jquery.jcarousel.min.js" type="text/javascript" charset="utf-8"></script>
-	<link rel="stylesheet" href="<?php echo $rooturl; ?>design/scripts/jquery.jcarousel/jcarousel.css" type="text/css" media="screen" charset="utf-8">
-
-	<!-- selects -->
-	<script src="<?php echo $rooturl; ?>design/scripts/jquery.ui.selectmenu/jquery.ui.selectmenu.js" type="text/javascript" charset="utf-8"></script>
-	<link rel="stylesheet" href="<?php echo $rooturl; ?>design/scripts/jquery.ui.selectmenu/jquery.ui.selectmenu.css" type="text/css" media="screen" charset="utf-8">	
-
-	<!-- qtip -->
-	<script src="<?php echo $rooturl; ?>design/vendor/jquery.qtip/jquery.qtip.pack.js" type="text/javascript" charset="utf-8"></script>
-	<link rel="stylesheet" href="<?php echo $rooturl; ?>design/vendor/jquery.qtip/jquery.qtip.min.css" type="text/css" media="screen" charset="utf-8">	
-
 
 	<link rel="stylesheet" href="<?php echo $rooturl; ?>design/css/layout.css" type="text/css" media="screen" charset="utf-8">
 
@@ -148,7 +132,7 @@ function decrement($download_code) {
 
 	<input name="code" id="code" value="<?php echo $download_code; ?>" type="text" class="text">
 	<input type="submit" class="submit" value="&nbsp;">
-	<a target="_blank" href="#" class="wtf">ARGH! Help!<span>If you've scored a download code somewhere, you can enter it here to get the FUCKING SWEET DOWNLOAD PACK with all sorts of rad stuff in it. <strong>Click that link for more help &raquo;</strong></span></a>
+	<a target="_blank" href="#" class="wtf">HELP + FAQs<span>If you've scored a download code somewhere, you can enter it here to get the FUCKING SWEET DOWNLOAD PACK with all sorts of rad stuff in it. <strong>Click that link for more help &raquo;</strong></span></a>
 	</div>
 </form>
 
