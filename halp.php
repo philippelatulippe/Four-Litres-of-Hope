@@ -53,7 +53,7 @@
 <body class="eek">
 
 <div class="aboot">
-	<p><a href="http://fourlitresofhope.com">Four litres of Hope</a> is the new thing from <a class="dood" href="http://bankai.fm">Bankai</a> (<a href="http://soundcloud.com/bankaibash">soundcloud</a> / <a href="http://facebook.com/bankaibash">facebook</a>) and <a class="dood" href="http://soundcloud.com/abortifacient">Abortifiacient</a> (<a href="http://soundcloud.com/abortifacient">soundcloud</a> / <a href="http://facebook.com/abortifacient">facebook</a>)</p>
+	<p><a href="<?php echo $rooturl; ?>">Four litres of Hope</a> is the new thing from <a class="dood" href="http://bankai.fm">Bankai</a> (<a href="http://soundcloud.com/bankaibash">soundcloud</a> / <a href="http://facebook.com/bankaibash">facebook</a>) and <a class="dood" href="http://soundcloud.com/abortifacient">Abortifiacient</a> (<a href="http://soundcloud.com/abortifacient">soundcloud</a> / <a href="http://facebook.com/abortifacient">facebook</a>)</p>
 </div>
 
 <div class="halp">

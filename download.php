@@ -105,18 +105,14 @@ function decrement($download_code) {
  
 <body class="download">
 
-<div class="fuckyeah">
-	<img src="awesome/plane.gif" alt="freshprince">
-</div>
-
-<form class="blat" action="download" method="get">
+<form class="blat" action="<?php echo $rooturl; ?>download/" method="get">
 	<div>
 
 		<?php switch($status):
 					case 'wrong_code':
 					case 'decrement_failed': ?>
 		
-			<p class="download">You messed up yo. Try again. Email <a href="mailto:will@bankai.fm">will@bankai.fm</a> if you think we screwed up.</p>
+			<p class="download">You messed up yo. Try again. Email <a href="mailto:will@allcaps.fm">will@allcaps.fm</a> if you think we screwed up.</p>
 		
 		<?php break; case 'sweet': ?>
 			<p class="download">
@@ -132,13 +128,13 @@ function decrement($download_code) {
 
 	<input name="code" id="code" value="<?php echo $download_code; ?>" type="text" class="text">
 	<input type="submit" class="submit" value="&nbsp;">
-	<a target="_blank" href="#" class="wtf">HELP + FAQs<span>If you've scored a download code somewhere, you can enter it here to get the FUCKING SWEET DOWNLOAD PACK with all sorts of rad stuff in it. <strong>Click that link for more help &raquo;</strong></span></a>
+	<a target="_blank" href="<?php echo $rooturl; ?>halp" class="wtf">HELP + FAQs<span>If you've scored a download code somewhere, you can enter it here to get the FUCKING SWEET DOWNLOAD PACK with all sorts of rad stuff in it. <strong>Click that link for more help &raquo;</strong></span></a>
 	</div>
 </form>
 
 
 <div class="aboot">
-	<p>Four litres of Hope is the new thing from <a class="dood" href="http://bankai.fm">Bankai</a> (<a href="http://soundcloud.com/bankaibash">soundcloud</a> / <a href="http://facebook.com/bankaibash">facebook</a>) and <a class="dood" href="http://soundcloud.com/abortifacient">Abortifiacient</a> (<a href="http://soundcloud.com/abortifacient">soundcloud</a> / <a href="http://facebook.com/abortifacient">facebook</a>)</p>
+	<p><a href="<?php echo $rooturl; ?>">Four litres of Hope</a> is the new thing from <a class="dood" href="http://bankai.fm">Bankai</a> (<a href="http://soundcloud.com/bankaibash">soundcloud</a> / <a href="http://facebook.com/bankaibash">facebook</a>) and <a class="dood" href="http://soundcloud.com/abortifacient">Abortifiacient</a> (<a href="http://soundcloud.com/abortifacient">soundcloud</a> / <a href="http://facebook.com/abortifacient">facebook</a>) | <a href="<?php echo $rooturl; ?>/halp">DOWNLOAD HELP</a></p>
 </div>
 
 </body>
