@@ -63,7 +63,7 @@
 		
 		<hr>
 		<h2>I WANT A DOWNLOAD CODE!</h2>
-		<p>Currently we are only releasing download codes at the live launch and to special friends. Contact <a href="mailto:will@bankai.fm">will@bankai.fm</a> if you think you were meant to get one...</p>
+		<p>Currently we are only releasing download codes at the live launch and to special friends. Contact <a href="mailto:will@allcaps.fm">will@allcaps.fm</a> if you think you were meant to get one...</p>
 
 		<hr>
 		<h2>My download didn't work!</h2>
@@ -79,7 +79,7 @@
 
 		<hr>
 		<h2>I need help with something, actually.</h2>
-		<p>Email <a href="mailto:will@bankai.fm">will@bankai.fm</a>.</p>
+		<p>Email <a href="mailto:will@allcaps.fm">will@allcaps.fm</a>.</p>
 		<p>He'll help you out.</p>
 		<p>Alternatively, <a href="http://bankai.fm/#area_interact" target="_blank">hit the "chat online" thing at bankai.fm</a>.</p>
 		
