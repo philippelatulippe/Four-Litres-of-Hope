@@ -111,6 +111,8 @@ a.allcapslogo:hover{opacity: 1;background: #000 url(../images/allcapslogo.png) n
 .aboot_hidden .playa .allcapslogo,
 .aboot_hidden p{display: none;}
 
+.aboot_hidden .diggit{height:41px; background-position: 0 10px;}
+
 .aboot_hidden .hide_aboot{background-image: url(../vendor/images.sw/arrows/down/3/808080.gif);}
 
 /* BOTTOM BRO */

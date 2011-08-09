@@ -43,7 +43,10 @@
 
 
 <div class="aboot js_aboot">
-	<p><a target="_blank" href="<?php echo $rooturl; ?>">Four litres of Hope</a> is the new thing from <a class="dood" target="_blank" href="http://bankai.fm">Bankai</a> (<a target="_blank" href="http://soundcloud.com/bankaibash">soundcloud</a> / <a target="_blank" href="http://facebook.com/bankaibash">facebook</a>) and <a class="dood" target="_blank" href="http://soundcloud.com/abortifacient">Abortifiacient</a> (<a target="_blank" href="http://soundcloud.com/abortifacient">soundcloud</a> / <a target="_blank" href="http://facebook.com/abortifacient">facebook</a>), feat <a class="js_linky" target="_blank" href="awesome/yesss.gif">yesss.gif</a> | <a href="<?php echo $rooturl; ?>/halp">DOWNLOAD HELP</a></p>
+	<p><a target="_blank" href="<?php echo $rooturl; ?>">Four litres of Hope</a> is the new thing from <a class="dood" target="_blank" href="http://bankai.fm">Bankai</a> (<a target="_blank" href="http://soundcloud.com/bankaibash">soundcloud</a> / <a target="_blank" href="http://facebook.com/bankaibash">facebook</a>) and <a class="dood" target="_blank" href="http://soundcloud.com/abortifacient">Abortifiacient</a> (<a target="_blank" href="http://soundcloud.com/abortifacient">soundcloud</a> / <a target="_blank" href="http://facebook.com/abortifacient">facebook</a>), feat <a class="js_linky" target="_blank" href="awesome/yesss.gif">yesss.gif</a> 
+	
+<!-- 	| <a href="<?php echo $rooturl; ?>/halp">DOWNLOAD HELP</a> -->
+	</p>
 
 	<div class="playa">
 		<object height="81" width="100%"> <param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F10882715&amp;show_comments=true&amp;auto_play=false&amp;color=ff4db6"></param> <param name="allowscriptaccess" value="always"></param> <param name="wmode" value="window"></param><embed wmode="window" allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F10882715&amp;show_comments=true&amp;auto_play=false&amp;color=ff4db6" type="application/x-shockwave-flash" width="100%"></embed> </object>
