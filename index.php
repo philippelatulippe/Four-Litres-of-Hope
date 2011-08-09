@@ -56,7 +56,12 @@
 
 
 	</div>
+
+	<div class="diggit">
+		<a href="http://allcapsrecords.bandcamp.com/track/four-litres-of-hope" target="_blank" class="bandcamp">GET THE SHIT YO</a>
+	</div>
 	
+<!--
 	<form class=" miniblat" action="<?php echo $rooturl; ?>download/"  method="get">
 		<div>
 			<input name="code" type="text" class="text" value="">
@@ -64,6 +69,7 @@
 			<a target="_blank" href="<?php echo $rooturl; ?>halp" class="wtf">HELP + FAQs<span>If you've scored a download code somewhere, you can enter it here to get the FUCKING SWEET DOWNLOAD PACK with all sorts of rad stuff in it. <strong>Click that link for more help &raquo;</strong></span></a>
 		</div>
 	</form>
+-->
 	
 </div><!-aboot->
 

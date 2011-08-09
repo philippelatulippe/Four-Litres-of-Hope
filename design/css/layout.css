@@ -68,7 +68,11 @@ a.allcapslogo:hover{opacity: 1;background: #000 url(../images/allcapslogo.png) n
 .aboot a{color: #ff0;}
 .aboot .dood{color: #fff;}
 
-.aboot object{float: right; width: 50%}
+.aboot object{float: right; width: 50%;}
+
+.aboot .diggit{background: #000 url(../images/floh-rave.gif) no-repeat 0 0;  position: absolute; top:100%; left: 0; width: 230px; height: 71px; border: 20px solid #000; border-top-width: 5px; border-bottom-width: 15px;}
+.aboot .bandcamp{display: block; width: 250px; height: 55px; position: absolute; top:45px; left: -10px; background: url(../images/get_the_track.png) no-repeat 0 0; text-indent: -999em;}
+.aboot .bandcamp:hover{background-position: 0 -100px}
 
 .aboot form{background: #000 url(../images/floh-top-left.jpg) no-repeat 0 0;  position: absolute; top:100%; left: 0; width: 230px; height: 71px; border: 20px solid #000; border-top-width: 5px; border-bottom-width: 15px;}
 
@@ -103,6 +107,7 @@ a.allcapslogo:hover{opacity: 1;background: #000 url(../images/allcapslogo.png) n
 
 .aboot_hidden{height: 0px;}
 .aboot_hidden .playa object,
+.aboot_hidden .diggit .bandcamp,
 .aboot_hidden .playa .allcapslogo,
 .aboot_hidden p{display: none;}
 
@@ -131,8 +136,5 @@ a.allcapslogo:hover{opacity: 1;background: #000 url(../images/allcapslogo.png) n
 .halp .bro p a:hover{background: #fff; color: #000; text-decoration: none;}
 
 hr{height: 0; border: 0px; border-bottom: 1px solid #333; margin: 5px 0 25px;}
-
-
-
 
 .halp .bro a.allcapslogo{margin: 50px auto 0;}
